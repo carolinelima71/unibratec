@@ -1,0 +1,34 @@
+header,section,footer{
+	border:1px solid #000;
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	text-color: #FFF;
+}
+h2{
+	text-align: left;
+}
+
+.social{
+	display: inline-block;
+	width: 60px;
+	height: 59px;
+	background-image: url("../img/css sprite.png");
+	background-position-y: 59px;
+	transition: all 1s;
+
+}
+
+.social:hover{
+	background-position-y: 0;
+}
+#twitter{
+background-position-x: -60px;
+}
+
+#Instagram{
+background-position-x: -180px;
+}
+#linkedin{
+background-position-x: -240px;
+}
